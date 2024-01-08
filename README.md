@@ -1,7 +1,10 @@
 # Enhanced-Network-Intrusion-Detector-with-ML-Classification-
 
 ## Overview
-In this project, I tackled a multi-class classification problem using SparkML, aiming to predict not just the presence of an attack but also its type. There were five possible categories: normal, DOS, R2L, U2R, and probing.
+In this project, I tackled a multi-class classification problem using SparkML, aiming to predict not just the presence of an attack but also its type. There were five possible categories: normal, DOS, R2L, U2R, and probing. NSL-KDD Dataset was used due to its relevance in cybersecurity and categorization of the attacks:
+- Cybercrimes, involving computers or networked devices, can lead to significant physical or financial damage. The NSL-KDD dataset is crucial for understanding and identifying network intrusions, as it provides a wealth of data on both normal and malicious network activities.
+- The dataset categorizes attacks into four classes: Denial of Service (DoS), Probe, User to Root (U2R), and Remote to Local (R2L). This classification aids in the development of specialized intrusion detection systems.
+
 
 # Section 1: Data Preprocessing and Pipeline Creation
 1.1 Pipeline and Data Engineering
