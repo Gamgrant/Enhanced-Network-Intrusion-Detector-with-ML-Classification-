@@ -7,7 +7,9 @@ In this project, I tackled a multi-class classification problem using SparkML, a
 
 
 # Section 1: Data Preprocessing and Pipeline Creation
- - 1.1 Pipeline and Data Engineering
+1.1 Pipeline and Data Engineering
+
+
 I created a preprocessing pipeline that incorporated standard data engineering steps. This included data cleaning, normalization, and feature engineering. Additionally, I formulated an 'outcome' column to categorize each record into one of the five classes.
 
 # Section 2: Model Selection and Evaluation
