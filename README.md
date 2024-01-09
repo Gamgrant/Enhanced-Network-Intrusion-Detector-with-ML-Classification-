@@ -34,10 +34,20 @@ I explained my rationale for selecting the two machine learning models, the spec
 4.2 Comparative Analysis
 I included a discussion comparing the two models, focusing on their performance, suitability for the task, and the impact of hyper-parameter tuning.
 
-# Section 5: Distributed Training on Google Cloud DataProc
-5.1 Training on DataProc
-I chose one of the two models and ran the training process on the Google Cloud DataProc cluster. This involved utilizing worker nodes for distributed training.
+## Results
 
-5.2 Spark History Server Screenshots
-I captured and included screenshots of the Spark history server, showcasing the Jobs page and the Executor page.
+# Accuracy for Random Forest Model 
+# ![randForClassifier](Results/randForClassifier.png)
 
+# Confusion Matrix for Random Forest Model 
+# ![ConfusRandFor](Results/ConfusRandFor.png)
+
+
+# Accuracy for Decision Tree Model
+# ![desicionTree_acc](Results/desicionTree_acc.png)
+
+# Confusion Matrix for Decision Tree Model 
+# ![desTreeConfMat](Results/desTreeConfMat.png)
+
+# AUC and ROC curve of tuned Gradient Boosted Tree Model
+# ![ROC curve comparison ](Results/ROC curve comparison .png)
