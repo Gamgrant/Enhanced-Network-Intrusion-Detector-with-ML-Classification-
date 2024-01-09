@@ -50,4 +50,4 @@ I included a discussion comparing the two models, focusing on their performance,
 # ![desTreeConfMat](Results/desTreeConfMat.png)
 
 # AUC and ROC curve of tuned Gradient Boosted Tree Model
-# ![ROC_curve_comparison](ROC_curve_comparison)
+# ![ROC_curve_comparison](ROC_curve_comparison.png)
